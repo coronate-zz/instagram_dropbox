@@ -8,7 +8,7 @@ nordvpn connect
 echo "Connected"
 
 echo "\n\nRUN python script"
-cd /home/alejandrocoronado/Dropbox/Github/instagram_autoai
-venv/bin/filesystem_instagram_dropbox.py
+cd instagram_dropbox
+python3 filesystem_instagram_dropbox.py
 
 #python3

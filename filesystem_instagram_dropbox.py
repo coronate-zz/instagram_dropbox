@@ -1,5 +1,5 @@
 import dropbox
-from os import walk
+from os import walk, remove
 import datetime
 import datetime
 import os.path, time
@@ -97,4 +97,5 @@ with open(instagram_photo_name_path, "rb") as f:
 
 #DELETE PHOTO IN DROPBOX ORIGINAL FOLDER
 dbx.files_delete(photo_to_download_path)
-
+remove("lowdetail.jpeg")
+remove(instagram_photo_name_path)

@@ -1,0 +1,31 @@
+#minute hour day_of_month month day_of_week 
+#    *    *          *      *        *      execute_command
+#INSTAGRAM UPLOAD
+#monday
+0 10	 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+0 15 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+
+#thuesday
+0 10 * * 2   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+#* 11 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+
+#wednesday
+30 11 * * 3   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+#* 11 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+
+#thursday
+0 9 * * 4   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+45 13 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+
+#friday
+0 13 * * 5   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+#* 11 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+
+#saturday
+0 11 * * 6   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.
+0 13 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+
+#sunday
+0 11 * * 7   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+0 12 * * 1   sh /home/alejandrocoronado/Dropbox/Github/instagram_autoai/execute.sh
+

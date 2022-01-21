@@ -15,7 +15,7 @@ idna==2.8
 imageio==2.1.2
 instapy==0.5.5
 instapy-chromedriver==2.46
-ipython==7.6.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.14.0
 jsonschema==3.0.1
